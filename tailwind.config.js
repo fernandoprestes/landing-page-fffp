@@ -8,6 +8,11 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
       }
+    },
+    colors: {
+      'space-cadet': '#2F2E41',
+      'mint-cream': '#E9F5F1',
+      'sea-green': '#0cbb7e'
     }
   },
   variants: {
