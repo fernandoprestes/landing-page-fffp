@@ -1,15 +1,18 @@
-import React from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import Logo from './../../images/logo.svg'
 
 export const Header = () => {
   function toggleNavMobile() {
     document.querySelector('.nav-mobile')!.classList.toggle('invisible')
+    document
+      .querySelector('.nav-mobile-menu')!
+      .classList.toggle('text-mint-cream')
   }
 
   return (
-    <header className="px-6 py-8">
-      <div className="flex justify-between container mx-auto max-w-7xl">
-        <h1 className="ml-4">Logo</h1>
+    <header className="px-4 py-4 border border-b-sea-green">
+      <div className="px-2 flex justify-between items-center container mx-auto max-w-7xl ">
+        <a href="#"><img src={Logo} alt="logo" /></a>
         <nav className="w-full hidden md:block">
           <ul className="flex justify-center space-x-8 font-poppins font-semibold ">
             <li className="text-mint-cream">
@@ -30,7 +33,7 @@ export const Header = () => {
           </ul>
         </nav>
 
-        <nav className="nav-mobile md:hidden bg-mint-cream  w-3/4 rounded-xl py-8 px-6 absolute left-1/2 top-24 -translate-x-2/4">
+        <nav className="nav-mobile md:hidden invisible bg-mint-cream w-full h-screen fixed right-0 top-0 flex justify-center place-items-center">
           <ul className="flex flex-col space-y-8 font-poppins font-semibold ">
             <li className="text-sea-green mx-auto">
               <a href="#" className="hover:text-space-cadet">
@@ -51,9 +54,9 @@ export const Header = () => {
         </nav>
 
         <GiHamburgerMenu
-          size={32}
+          size={24}
           onClick={toggleNavMobile}
-          className="text-mint-cream md:hidden cursor-pointer"
+          className="nav-mobile-menu text-mint-cream md:hidden cursor-pointer z-10"
         />
       </div>
     </header>
