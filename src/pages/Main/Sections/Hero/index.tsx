@@ -1,5 +1,6 @@
-import HelloGif from '../../images/hello.gif'
-import HeroBanner from '../../images/hero-banner.svg'
+import Button from '../../../../components/Button'
+import HelloGif from '../../../../images/hello.gif'
+import HeroBanner from '../../../../images/hero-banner.svg'
 import './styles.scss'
 
 const Hero = () => {
@@ -20,9 +21,7 @@ const Hero = () => {
           <span className="text-sea-green font-bold">_</span>
         </p>
 
-        <button className="px-4 py-2 w-52 mt-8 text-sea-green border border-sea-green">
-          contact me
-        </button>
+        <Button text="Contact me" />
       </section>
 
       <section className="hidden md:block w-3/5">

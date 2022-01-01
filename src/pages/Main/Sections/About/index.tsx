@@ -1,16 +1,14 @@
-import AboutBanner from '../../images/about-banner.svg'
-import TextBold from '../TextBold'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import TextBold from '../../../../components/TextBold'
+import Title from '../../../../components/Title'
+import AboutBanner from '../../../../images/about-banner.svg'
 
 const About = () => {
   return (
     <>
       <div id="about" className="mx-auto max-w-7xl flex">
         <section className="w-full md:w-3/5 text-mint-cream p-10 pt-0 font-poppins">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl mb-10 md:mb-20">
-            about
-            <TextBold text="_" />
-          </h2>
+          <Title text="about" />
           <p>
             I create responsive websites that are easy to use and built with
             best practices. My main area of expertise is front-end development.
