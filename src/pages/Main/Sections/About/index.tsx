@@ -28,14 +28,22 @@ const About = () => {
       <div className="mx-auto max-w-7xl flex justify-center md:p-24 p-12">
         <ul className="flex justify-center space-x-8 font-poppins font-semibold">
           <li className="text-mint-cream flex flex-col items-center">
-            <a href="" className="hover:text-sea-green">
+            <a
+              href="https://github.com/fernandoprestes"
+              target="_blank"
+              className="hover:text-sea-green"
+            >
               <AiFillGithub size={42} className="mx-auto mb-2" />
               /fernandoprestes
             </a>
           </li>
 
           <li className="text-mint-cream flex flex-col items-center">
-            <a href="" className="hover:text-sea-green">
+            <a
+              href="https://www.linkedin.com/in/fernandoprestes/"
+              target="_blank"
+              className="hover:text-sea-green"
+            >
               <AiFillLinkedin size={42} className="mx-auto mb-2" />
               @fernandoprestes
             </a>

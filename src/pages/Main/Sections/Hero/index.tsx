@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero-banner mx-auto max-w-7xl flex items-center">
       <section className="w-full md:w-3/5 text-mint-cream p-10">
-        <p className="text-2xl md:text-4xl lg:text-5xl">
+        <p className="text-2xl md:text-4xl lg:text-5xl mb-8">
           <img
             className="w-8 md:w-10 lg:w-12 inline mb-2"
             src={HelloGif}
@@ -21,7 +21,7 @@ const Hero = () => {
           <span className="text-sea-green font-bold">_</span>
         </p>
 
-        <Button text="Contact me" />
+        <Button text="Contact me" link_external='#' />
       </section>
 
       <section className="hidden md:block w-3/5">
