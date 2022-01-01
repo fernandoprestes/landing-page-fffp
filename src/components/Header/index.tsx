@@ -24,7 +24,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="text-mint-cream">
-              <a href="#" className="hover:text-sea-green">
+              <a href="#projects" className="hover:text-sea-green">
                 projects
               </a>
             </li>
@@ -44,7 +44,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="text-sea-green mx-auto">
-              <a href="#" className="hover:text-space-cadet">
+              <a href="#projects" className="hover:text-space-cadet">
                 projects
               </a>
             </li>
