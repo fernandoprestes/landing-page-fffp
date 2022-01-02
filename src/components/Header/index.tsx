@@ -29,7 +29,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="text-mint-cream">
-              <a href="#" className="hover:text-sea-green">
+              <a href="#contact" className="hover:text-sea-green">
                 contact
               </a>
             </li>
@@ -39,17 +39,29 @@ export const Header = () => {
         <nav className="nav-mobile md:hidden invisible bg-mint-cream w-full h-screen fixed right-0 top-0 flex justify-center place-items-center">
           <ul className="flex flex-col space-y-8 font-poppins font-semibold ">
             <li className="text-sea-green mx-auto">
-              <a href="#about" className="hover:text-space-cadet">
+              <a
+                href="#about"
+                className="hover:text-space-cadet"
+                onClick={toggleNavMobile}
+              >
                 about
               </a>
             </li>
             <li className="text-sea-green mx-auto">
-              <a href="#projects" className="hover:text-space-cadet">
+              <a
+                href="#projects"
+                className="hover:text-space-cadet"
+                onClick={toggleNavMobile}
+              >
                 projects
               </a>
             </li>
             <li className="text-sea-green mx-auto">
-              <a href="#" className="hover:text-space-cadet">
+              <a
+                href="#contact"
+                className="hover:text-space-cadet"
+                onClick={toggleNavMobile}
+              >
                 contact
               </a>
             </li>
