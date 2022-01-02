@@ -30,7 +30,7 @@ const Card = ({
       <div className="px-6 pt-4 pb-2 flex  justify-between">
         <div className="flex space-x-2">
           <AiOutlineCalendar size={20} className="text-sea-green" />
-          <p className="text-sea-green">{date}</p>
+          <p className="text-sea-green text-xs sm:text-sm md:text-md ">{date}</p>
         </div>
         <a href={link_external} target="_blank" className="cursor-pointer">
           <FiExternalLink
