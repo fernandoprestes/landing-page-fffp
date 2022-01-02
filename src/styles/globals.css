@@ -8,3 +8,16 @@ html {
 body {
   background: #04040c;
 }
+
+.bg-gradient {
+  background: linear-gradient(
+    60deg,
+    #04040c 0%,
+    #0cbb7e42 45%,
+    #0cbb7e40 50%,
+    #0cbb7e42 55%,
+    #04040c 100%
+  );
+}
+
+
