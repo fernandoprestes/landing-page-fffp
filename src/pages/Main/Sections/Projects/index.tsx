@@ -1,4 +1,3 @@
-import './styles.scss'
 import {
   SiHtml5,
   SiCss3,
@@ -10,7 +9,8 @@ import {
   SiVite,
   SiVisualstudiocode,
   SiGit,
-  SiJirasoftware
+  SiJirasoftware,
+  SiYarn
 } from 'react-icons/si'
 import Title from '../../../../components/Title'
 import Card from '../../../../components/Card'
@@ -81,6 +81,9 @@ const Projects = () => {
             </li>
             <li className="m-2">
               <SiStyledcomponents size={36} />
+            </li>
+            <li className="m-2">
+              <SiYarn size={36} />
             </li>
             <li className="m-2">
               <SiVite size={36} />
