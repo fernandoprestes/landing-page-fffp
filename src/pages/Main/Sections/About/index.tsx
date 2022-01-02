@@ -31,8 +31,8 @@ const About = () => {
           <img src={AboutBanner} alt="" />
         </section>
       </div>
-      <div className="mx-auto max-w-7xl flex justify-center md:p-12 md:pt-24 p-12">
-        <ul className="flex justify-center space-x-8 font-poppins font-semibold">
+      <div className="mx-auto max-w-7xl flex justify-center md:justify-start md:p-12 md:pt-24 p-12">
+        <ul className="flex justify-center  space-x-8 font-poppins font-semibold">
           <li className="text-mint-cream flex flex-col items-center">
             <a
               href="https://github.com/fernandoprestes"
@@ -59,24 +59,38 @@ const About = () => {
 
       <div className="bg-gradient">
         <div className="max-w-7xl mx-auto pl-10">
-          <SubTitle text="cursos" />
+          <SubTitle text="online courses" />
         </div>
         <div className="p-8 pb-0 pt-0 md:max-w-full max-w-md mx-auto flex justify-center">
-          <ul className="flex flex-wrap align-middle justify-evenly md:justify-center space-x-8 md:space-x-16 mb-8">
-            <li className="flex w-12">
-              <img src={LogoTraco} alt="logo traco " />
+          <ul className="flex flex-wrap align-middle justify-evenly md:justify-center gap-8 md:gap-1 md:space-x-16 mb-8">
+            <li className="flex w-12 items-center">
+              <a href="https://traco.dev.br/">
+                <img src={LogoTraco} alt="logo traco " />
+              </a>
             </li>
-            <li className="flex w-18">
-              <img src={LogoAlura} alt="logo alura" />
+            <li className="flex w-18 items-center">
+              <a href="https://www.alura.com.br/">
+                <img src={LogoAlura} alt="logo alura" />
+              </a>
             </li>
-            <li className="flex w-36">
-              <img src={LogoRocketseat} alt="logo rocketseat" />
+            <li className="flex w-36 items-center">
+              <a href="https://www.rocketseat.com.br/">
+                <img
+                  src={LogoRocketseat}
+                  alt="logo rocketseat"
+                  className=" w-36"
+                />
+              </a>
             </li>
-            <li className="flex w-24">
-              <img src={LogoOrigamid} alt="logo alura" />
+            <li className="flex w-24 items-center">
+              <a href="https://www.origamid.com/">
+                <img src={LogoOrigamid} alt="logo origamid" className="w-24" />
+              </a>
             </li>
-            <li className="flex w-24">
-              <img src={LogoDio} alt="logo alura" />
+            <li className="flex w-24 items-center">
+              <a href="https://web.dio.me/home">
+                <img src={LogoDio} alt="logo DIO" className="w-24" />
+              </a>
             </li>
           </ul>
         </div>
